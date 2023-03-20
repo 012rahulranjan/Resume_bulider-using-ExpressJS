@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Resume Builder</title>
+  </head>
+  <body>
+    <h1>Resume Builder</h1>
+    <form method="POST" action="/submit">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Your Email ID"><br>
+      <label for="url">Linkedin:</label>
+      <input type="text" id="linkedin" name="linkedin" placeholder="Enter Your Linkedin URL"><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone"><br>
+      <label for="name">Carrer Objective:</label>
+      <input type="text" id="objective" name="objective" placeholder="Enter Your Carrier Objective"><br>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" placeholder="Enter Your Address"><br>
+      <label for="education">Education:</label>
+      <input type="text" id="education" name="education" placeholder="Enter Education Details"><br>
+      <label for="education">Skills:</label>
+      <input type="text" id="skills" name="skills" placeholder="Enter Your Skills"><br>
+      <label for="education">Hobbies:</label>
+      <input type="text" id="hobbies" name="hobbies" placeholder="Enter Your Hobbies"><br>
+      <label for="experience">Experience:</label>
+      <input type="text" id="experience" name="experience" placeholder="Enter Your Experience"><br>
+     <center><button type="submit">Submit Here</button></center> 
+    </form>
+  </body>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+  </style>
+</html>

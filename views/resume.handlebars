@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Resume - {{name}}</title>
+  </head>
+  <body>
+    <form>
+    <h1>{{name}}</h1>
+    <ul>
+      <li>Email: {{email}}</li>
+      <li>Phone: {{phone}}</li>
+      <li>Linkedin: {{linkedin}}</li>
+      <li>Address: {{address}}</li>
+    </ul>
+    <h2>Objective</h2>
+    <ul>
+      <li>{{objective}}</li>
+    <h2>Education</h2>
+    <ul>
+      <li>{{education}}</li>
+    </ul>
+    <h2>Skills</h2>
+    <ul>
+      <li>{{skills}}</li>
+    </ul>
+    <h2>Hobbies</h2>
+    <ul>
+      <li>{{hobbies}}</li>
+    <h2>Experience</h2>
+    <ul>
+      <li>{{experience}}</li>
+    </ul>
+  </form>
+
+<button onclick="window.print()">Save as PDF</button>
+
+<style>
+form{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(249, 16, 16, 0.988);
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+
+</style>
+   
+</body>
+</html>
