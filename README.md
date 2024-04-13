@@ -35,12 +35,12 @@ This is a application built with Express.js and Handlebars to create resumes.
 
 - **Express.js**: Backend web application framework for Node.js.
 - **Handlebars**: Templating engine for generating dynamic HTML content.
-- **MongoDB**: NoSQL database for storing user data and resumes.
-- **Mongoose**: MongoDB object modeling tool for Node.js.
-- **Passport.js**: Authentication middleware for Node.js.
 - **HTML/CSS/JavaScript**: Frontend development languages for building the user interface and interactivity.
 - **PDFKit**: Library for generating PDF documents in Node.js.
-- **Bootstrap**: Frontend framework for responsive and mobile-first design.
+
+## Screenshots
+![resume](https://github.com/012rahulranjan/Resume_bulider-using-ExpressJS/assets/89831083/38dc8064-931e-41ff-939d-f67f8210b332)
+
 
 ## Contributing
 
