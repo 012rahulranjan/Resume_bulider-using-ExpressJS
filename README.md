@@ -39,7 +39,15 @@ This is a application built with Express.js and Handlebars to create resumes.
 - **PDFKit**: Library for generating PDF documents in Node.js.
 
 ## Screenshots
+
+![Flowchart_001](https://github.com/012rahulranjan/Resume_bulider-using-ExpressJS/assets/89831083/bfed1873-aa42-4477-8961-f7760122adff)
+
 ![resume](https://github.com/012rahulranjan/Resume_bulider-using-ExpressJS/assets/89831083/38dc8064-931e-41ff-939d-f67f8210b332)
+
+![Resume Builder filling details_001](https://github.com/012rahulranjan/Resume_bulider-using-ExpressJS/assets/89831083/5405a669-efce-44ec-a982-279b69d06788)
+
+![Resume Builder After Submission_001](https://github.com/012rahulranjan/Resume_bulider-using-ExpressJS/assets/89831083/af1e2683-77ea-47c2-9409-e05e63d35574)
+
 
 
 ## Contributing
